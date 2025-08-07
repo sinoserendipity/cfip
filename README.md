@@ -12,4 +12,4 @@ https://www.wetest.vip/page/cloudflare/address_v4.html
 ```
 https://stock.hostmonit.com/CloudFlareYes
 ```
-的优选ip，形成ip.txt 
+的优选ip，形成ip.txt，限制100个ip地址
