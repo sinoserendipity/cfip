@@ -1,4 +1,4 @@
-每3小时自动抓取
+每周星期天0点自动抓取
 ```
 https://www.wetest.vip/page/cloudflare/address_v4.html
 ```
