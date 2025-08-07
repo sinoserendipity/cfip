@@ -42,7 +42,7 @@ for url in urls:
 
 # 将去重后的IP地址按数字顺序排序后写入文件
 if unique_ips:
-    # 按IP地址的数字顺序排序（非字符串顺序）
+    # 按IP地址的数字顺序排序（非字符串顺序），命令后面增加[:100] 为限制ip地址为100个
     sorted_ips = sorted(unique_ips, key=lambda ip: [int(part) for part in ip.split('.')])[:100]
     
     with open('ip.txt', 'w') as file:
